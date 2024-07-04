@@ -10,18 +10,12 @@ public class Phone {
         Boolean power;
         Person owner;
 
-        public Phone(Person owner){
-                this.owner = owner;
-        }
+        public Phone(){}
 
-        void buy(){
-
-        }
         void turnOn(){
                 printLogo();
                 System.out.println("핸드폰이 켜졌습니다.");
         }
-
 
         void turnOff(){
                 System.out.println("띠로리로.");
